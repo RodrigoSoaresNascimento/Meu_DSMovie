@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+    --text-gray: #4a4a4a;
+    --color-primary: #4d41c0;
+    --bg-gray: #e8e8e8;
+  }
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    background-color: #ddd;
+}
+header{
+    background-color: #4D41C0;
+    color:cornsilk
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:space-between ;
+}
+
+a,a:hover{
+    text-decoration: none;
+    color: unset;
+}
+.DSMovie-card{
+    width: 360px;
+    
+}
+#DSMovie-card-list{
+
+    padding: 40px 0;
+
+}
+.DSMovie-card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.DSMovie-card-description{
+    background-color: var(#ddd);
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+.DSMovie-card-description h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.DSMovie-button, .DSMovie-button:hover{
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(#ddd);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
