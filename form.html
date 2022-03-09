@@ -30,9 +30,31 @@
                     <div class="DSMovie-card">
                         <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/izIMqapegdEZj0YVDyFATPR8adh.jpg" alt="Vikings: Valhalla">
                     </div>
-                        <div class="DSMovie-card-description">
+                        <div class="DSMovie-form-description">
                             <h3> Vikings: Valhalla </h3>
-                            <a class="DSMovie-button" href="index.html"> Cancelar</a>
+                            <form class="DSMovie-form">
+                                <div class="form-group DSMovie-form-group">
+                                    <label for="email">
+                                        Imforme seu email
+                                    </label>
+                                    <input class="form-control" type="email" id="email">
+                                </div>
+                                <div class="form-group DSMovie-form-group">
+                                    <label for="score">Informe sua avaliação</label>
+                                    <select class="form-control" name="score" id="score">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                <div class="DSMovie-form-button-container">
+                                    <button class="DSMovie-button" type="submit">Salvar</button>
+                                    <a class="DSMovie-button" href="index.html"> Cancelar</a>
+                                </div>
+                            </form>
+                            
                         </div>    
                 </div>  
             </div> 
