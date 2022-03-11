@@ -158,11 +158,11 @@ a,a:hover{
 .DSMovie-pagination-box button img{
     filter: brightness(0) saturate(100%) invert(28%) sepia(66%) saturate(1844%) hue-rotate(228deg) brightness(83%) contrast(93%);
 }
-.DSMovie-pagination-box button :disabled {
+.DSMovie-pagination-box button:disabled {
     border: 1px solid var(--text-ligth-gray);
 }
 
-.DSMovie-pagination-box button :disabled img{
+.DSMovie-pagination-box button:disabled img{
     filter: unset;
 }
 
